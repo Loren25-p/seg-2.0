@@ -511,8 +511,8 @@ span {
   font-size: 30px;
 }
 .seg_adaptation {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   font-size: 32px;
   font-weight: 700;
   line-height: 34.34px;
@@ -1245,7 +1245,7 @@ span {
 }
 .grid_adaptationImg {
   width: 65px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .grid_adaptationSpan {
   font-size: 18px;
