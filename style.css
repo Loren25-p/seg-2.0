@@ -13,6 +13,7 @@ header {
   background-color: #323941;
 }
 .Segway_Info {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,6 +201,7 @@ span {
   font-size: 13px;
 } */
 .segway_hover {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -509,6 +511,8 @@ span {
   font-size: 30px;
 }
 .seg_adaptation {
+  display: flex;
+  align-items: center;
   font-size: 32px;
   font-weight: 700;
   line-height: 34.34px;
@@ -941,6 +945,7 @@ span {
   font-weight: 400;
   line-height: 15.51px;
   text-align: center;
+  border-color: #c6c6c6;
 }
 
 .button_seeMore {
@@ -1282,11 +1287,11 @@ span {
   text-transform: uppercase;
 }
 .background_scooter {
+  width: 100%;
   display: none;
 }
 .Smart_info02 {
   width: 100%;
-  background: radial-gradient(68.67% 47% at 50% 100%, #151d37 0%, #000000 100%);
 }
 .Smart_info2 {
   background-image: url(.img/Батарея.svg.);
@@ -1351,6 +1356,9 @@ span {
   letter-spacing: 0.02em;
   text-align: left;
   color: #323941;
+}
+.rope_img {
+  display: flex;
 }
 /* Адаптация на 400px */
 @media (max-width: 400px) {
@@ -1471,8 +1479,8 @@ span {
     margin-left: 5px;
   }
   .blue_border {
+    margin-left: 3px;
     border: 8px solid #009eff;
-    margin-left: 5px;
   }
   .scooter_adaptation {
     padding-left: 30px;
