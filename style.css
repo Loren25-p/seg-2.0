@@ -511,8 +511,6 @@ span {
   font-size: 30px;
 }
 .seg_adaptation {
-  /* display: flex;
-  align-items: center; */
   font-size: 32px;
   font-weight: 700;
   line-height: 34.34px;
@@ -581,7 +579,7 @@ span {
   color: #323941;
 }
 .protectionImg {
-  padding-left: 40px;
+  padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -602,7 +600,7 @@ span {
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  width: 375px;
+  width: 340px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.92px;
@@ -665,8 +663,7 @@ span {
 .scooter_extend2 {
   height: 48px;
   top: 1016px;
-  left: 38.29px;
-  width: 170px;
+  width: 150px;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -1476,10 +1473,10 @@ span {
   .extend_adaptive {
     border: 8px solid #999999;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 15px;
   }
   .blue_border {
-    margin-left: 3px;
+    margin-left: 15px;
     border: 8px solid #009eff;
   }
   .scooter_adaptation {
