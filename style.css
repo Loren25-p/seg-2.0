@@ -203,13 +203,11 @@ span {
 } */
 .segway_hover {
   flex-direction: row;
-  width: 375px;
-  /* width: 400px; */
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .Example_hover {
+  display: flex;
   width: 100%;
   background-color: #323941;
   padding: 0 8px;
@@ -1298,9 +1296,7 @@ span {
   text-transform: uppercase;
 }
 .background_scooter {
-  display: flex;
-  z-index: auto;
-  width: 100%;
+  padding: 2px;
   display: none;
 }
 .Smart_info02 {
@@ -1349,6 +1345,7 @@ span {
   padding-left: 16px;
 }
 .last_text {
+  display: flex;
   font-family: "Proxima Nova" sans-serif;
   font-size: 15px;
   font-weight: 300;
