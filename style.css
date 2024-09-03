@@ -13,6 +13,7 @@ header {
   background-color: #323941;
 }
 .Segway_Info {
+  display: none;
   width: 100%;
   display: flex;
   align-items: center;
@@ -22,7 +23,7 @@ header {
 .Contact_Info {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
   cursor: pointer;
 }
 .Options {
@@ -201,7 +202,9 @@ span {
   font-size: 13px;
 } */
 .segway_hover {
+  flex-direction: row;
   width: 100%;
+  /* width: 400px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,7 +272,11 @@ span {
   cursor: pointer;
 }
 .segway_container {
+  flex-direction: row;
   padding-top: calc(2.87292817679558vw + 5.4px);
+  display: flex;
+}
+.segway_container {
   display: flex;
 }
 
@@ -285,6 +292,7 @@ span {
 
 .in_stock {
   padding-top: 16px;
+  display: flex;
 }
 
 .Extend_info {
@@ -520,6 +528,7 @@ span {
   padding-left: 10px;
 }
 .scooter_adaptation {
+
   display: flex;
   padding-left: 45px;
 }
@@ -1101,11 +1110,15 @@ span {
   text-align: center;
 }
 .adaptation_sec {
+  width: 100%;
   display: none;
   padding-top: 80px;
   padding-left: 20px;
 }
 .packInfo_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding-top: 50px;
   font-size: 26px;
   font-weight: 700;
@@ -1115,6 +1128,9 @@ span {
   text-transform: uppercase;
 }
 .packInfo_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #009eff;
   width: 300px;
   height: 300px;
@@ -1124,7 +1140,6 @@ span {
   margin-left: 30px;
 }
 .packInfo_img2 {
-  padding-left: 8px;
   padding-top: 45px;
 }
 
@@ -1219,7 +1234,7 @@ span {
   padding-left: 20px;
 }
 .second_card {
-  padding-left: 10px;
+  padding-left: px;
 }
 .preview_adaptation {
   display: none;
@@ -1289,6 +1304,7 @@ span {
 }
 .Smart_info02 {
   width: 100%;
+  display: flex;
 }
 .Smart_info2 {
   background-image: url(.img/Батарея.svg.);
@@ -1338,7 +1354,7 @@ span {
   font-weight: 300;
   line-height: 18.27px;
   letter-spacing: 0.02em;
-  width: 343px;
+  width: 320px;
   height: 90px;
   text-align: left;
   color: #323941;
@@ -1356,9 +1372,16 @@ span {
 }
 .rope_img {
   display: flex;
+  width: 100%;
 }
 /* Адаптация на 400px */
-@media (max-width: 400px) {
+@media (max-width: 375px) {
+  .seg_adaptationImg2 {
+    width: 100%;
+  }
+  .last_footer img {
+    width: 100%;
+  }
   .last_footer {
     display: block;
   }
@@ -1473,15 +1496,15 @@ span {
   .extend_adaptive {
     border: 8px solid #999999;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 5px;
   }
   .blue_border {
-    margin-left: 15px;
+    margin-left: 5px;
     border: 8px solid #009eff;
   }
   .scooter_adaptation {
-    padding-left: 30px;
-    gap: 20px;
+    padding-left: 25px;
+    gap: 5px;
   }
   .Extend_info {
     display: none;
@@ -1497,6 +1520,8 @@ span {
     display: none;
   }
   .Segway_Info {
+    display: block;
+    display: flex;
     gap: 40px;
     padding: 16px;
   }
