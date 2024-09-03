@@ -203,7 +203,7 @@ span {
 } */
 .segway_hover {
   flex-direction: row;
-  width: 100%;
+  width: 375px;
   /* width: 400px; */
   display: flex;
   align-items: center;
@@ -528,7 +528,6 @@ span {
   padding-left: 10px;
 }
 .scooter_adaptation {
-
   display: flex;
   padding-left: 45px;
 }
@@ -1110,10 +1109,9 @@ span {
   text-align: center;
 }
 .adaptation_sec {
-  width: 100%;
   display: none;
   padding-top: 80px;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 .packInfo_text {
   display: flex;
@@ -1141,6 +1139,8 @@ span {
 }
 .packInfo_img2 {
   padding-top: 45px;
+  display: flex;
+  align-items: center;
 }
 
 .Accessories_adaptation {
@@ -1217,7 +1217,7 @@ span {
 }
 .last_button2 {
   margin-left: 10px;
-  width: 180px;
+  width: 160px;
   height: 46px;
   border-radius: 4px;
   margin-top: 20px;
@@ -1234,7 +1234,6 @@ span {
   padding-left: 20px;
 }
 .second_card {
-  padding-left: px;
 }
 .preview_adaptation {
   display: none;
@@ -1299,6 +1298,8 @@ span {
   text-transform: uppercase;
 }
 .background_scooter {
+  display: flex;
+  z-index: auto;
   width: 100%;
   display: none;
 }
@@ -1311,7 +1312,6 @@ span {
   background: radial-gradient(68.67% 47% at 50% 100%, #151d37 0%, #000000 100%);
   width: 100%;
   height: 500px;
-  padding-top: 5px;
 }
 
 .Smart_info2 {
