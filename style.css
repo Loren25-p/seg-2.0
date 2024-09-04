@@ -782,8 +782,13 @@ span {
   height: 55px; 
 } */
 
+.miles_info20 {
+  display: flex;
+}
+
 .miles_info {
   display: flex;
+  flex-direction: column;
   /* background-color: #F7F7F7; 
   width: 957px;
   height: 192px;
@@ -798,6 +803,7 @@ span {
   text-transform: uppercase;
 }
 .miles_segway {
+  color: #999999;
   width: 465px;
   height: 66px;
 
@@ -1296,7 +1302,6 @@ span {
   text-transform: uppercase;
 }
 .background_scooter {
-  padding: 2px;
   display: none;
 }
 .Smart_info02 {
@@ -1346,7 +1351,7 @@ span {
 }
 .last_text {
   display: flex;
-  font-family: "Proxima Nova" sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 18.27px;
@@ -1383,6 +1388,7 @@ span {
     display: block;
   }
   .background_scooter {
+    background-image: url(./img/BG_NEW.png);
     display: block;
   }
   .details_sec {
