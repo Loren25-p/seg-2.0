@@ -1228,7 +1228,7 @@ span {
 }
 .last_button2 {
   margin-left: 10px;
-  width: 160px;
+  width: 170px;
   height: 46px;
   border-radius: 4px;
   margin-top: 20px;
@@ -1384,7 +1384,7 @@ span {
   width: 100%;
 }
 /* Адаптация на 400px */
-@media (max-width: 375px) {
+@media (max-width: 1280px) {
   .seg_adaptationImg2 {
     width: 100%;
   }
