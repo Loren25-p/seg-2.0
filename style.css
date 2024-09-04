@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline:2px solid red;
+  /* outline: 2px solid red; */
 }
 body {
   font-family: Arial, sans-serif;
@@ -203,15 +203,22 @@ span {
 } */
 .segway_hover {
   flex-direction: row;
-  width: 100%;
   display: flex;
 }
 .Example_hover {
   display: flex;
-  width: 100%;
+
+  align-items: center;
+  text-align: center;
+  width: 375px;
+  height: 100px;
   background-color: #323941;
-  padding: 0 8px;
+  padding: 8px;
   display: none;
+}
+.Example_hover img {
+  width: 58px;
+  height: 58px;
 }
 .Example_hover :hover {
   transform: scale(1);
