@@ -277,10 +277,10 @@ span {
   border: 2px solid #6acd68;
   cursor: pointer;
 }
-.segway_container {
-  flex-direction: row;
+.segway_container { 
   padding-top: calc(2.87292817679558vw + 5.4px);
   display: flex;
+  display: none;
 }
 .segway_container {
   display: flex;
@@ -300,6 +300,7 @@ span {
   padding-top: 16px;
   display: flex;
 }
+
 
 .Extend_info {
   position: relative;
@@ -497,7 +498,7 @@ span {
   width: 17px;
   height: 13px;
 }
-.scooter_payment {
+. {
   width: 483px;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -513,9 +514,9 @@ span {
   width: 105px;
   height: 27px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 20px;
   display: none;
 }
@@ -1136,9 +1137,15 @@ span {
   color: #323941;
   text-transform: uppercase;
 }
+.ad_changes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .packInfo_img {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: #009eff;
   width: 300px;
@@ -1146,12 +1153,13 @@ span {
   border-radius: 50%;
   border-width: 500px;
   margin-top: 30px;
-  margin-left: 30px;
 }
 .packInfo_img2 {
   padding-top: 45px;
   display: flex;
-  align-items: center;
+  /* flex-direction: row;
+  align-items: center; */
+  /* justify-content: center; */
 }
 
 .Accessories_adaptation {
@@ -1164,7 +1172,7 @@ span {
   width: 187px;
   height: 33px;
   text-transform: uppercase;
-  padding-left: 95px;
+  /* padding-left: 95px; */
   padding-top: 75px;
 }
 .ninebo_adaptationImg {
@@ -1381,10 +1389,28 @@ span {
 }
 .rope_img {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
+.in_stock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accAd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 /* Адаптация на 400px */
 @media (max-width: 1280px) {
+  .segway_container {
+    display: block;
+  }
   .seg_adaptationImg2 {
     width: 100%;
   }
@@ -1447,7 +1473,7 @@ span {
     display: block;
     color: #323941;
     padding-top: 20px;
-    padding-left: 130px;
+    /* padding-left: 130px; */
     padding-bottom: 20px;
   }
   .protective_info {
@@ -1462,7 +1488,8 @@ span {
     display: none;
   }
   .payment_seg {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -1471,7 +1498,7 @@ span {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding-left: 60px;
+    /* padding-left: 60px; */
   }
   .last_info {
     display: none;
@@ -1486,13 +1513,23 @@ span {
     display: none;
   }
   .segway_button {
+    display: none;
+  }
+  .segway_buttonAd {
     display: block;
-    margin-left: 160px;
+  }
+  .segway_buttonAd5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .mapp_info {
     display: block;
     padding-top: 50px;
-    padding-left: 45px;
+    /* padding-left: 45px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .packingInfo_img {
     display: none;
