@@ -61,12 +61,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 500px;
+  gap: 520px;
   padding: 18px;
 }
 
 .Segway_Logo {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .Admin_Infos {
@@ -101,6 +101,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
   cursor: pointer;
 }
 .Example_img {
@@ -135,7 +136,7 @@ span {
 }
 
 .Example_img_1 {
-  padding-left: 20px;
+  /* padding-left: 15px; */
 }
 .Example_img_2 {
   padding-left: 20px;
@@ -145,7 +146,7 @@ span {
 .Example_Name {
   color: grey;
   font-family: Proxima Nova;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 21.92px;
   text-align: center;
@@ -154,11 +155,13 @@ span {
 /* Section 1 end */
 /* Section 2 start */
 #Assortiments_Second {
+  padding-left: 40px;
   background-color: #323941;
   align-items: center;
   display: flex;
   justify-content: center;
   cursor: pointer;
+  gap: 15px;
 }
 
 /* Section 2 end  */
@@ -208,6 +211,7 @@ span {
 }
 .Example_hover {
   display: flex;
+  height: 80px;
 
   align-items: center;
   text-align: center;
@@ -277,10 +281,13 @@ span {
   border: 2px solid #6acd68;
   cursor: pointer;
 }
-.segway_container { 
+.segway_container {
+  padding-left: calc(5.0828729281768vw - 15.060773480663px);
   padding-top: calc(2.87292817679558vw + 5.4px);
   display: flex;
   display: none;
+}
+.inSrock_info {
 }
 .segway_container {
   display: flex;
@@ -300,7 +307,6 @@ span {
   padding-top: 16px;
   display: flex;
 }
-
 
 .Extend_info {
   position: relative;
@@ -429,6 +435,7 @@ span {
 
 /* ddddddddddddddd */
 .seg_adaptation {
+  width: 300px;
   display: none;
   /* list-style-type: none; */
   color: #323941;
@@ -451,14 +458,21 @@ span {
   color: #323941;
 }
 
-/* .payment_seg {
+.payment_seg {
   display: flex;
   flex-direction: column;
   gap: 5px;
   justify-content: center;
-  
-} */
+  display: none;
+}
+.payment_seg1 {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+}
 .segway_payment {
+  /* padding-left: 100px; */
   display: flex;
   flex-direction: row;
   font-family: Proxima Nova;
@@ -535,7 +549,10 @@ span {
 }
 .scooter_adaptation {
   display: flex;
-  padding-left: 45px;
+  /* padding-left: 45px; */
+}
+.scooter_adaptation h3 {
+  font-size: 30px;
 }
 .protective_info {
   /* line-height: 24.5px; */
@@ -547,11 +564,11 @@ span {
   display: flex;
 }
 .protection_container {
-  font-size: 20px;
+  font-size:19px;
   /* font-weight: 700; */
   line-height: 24.5px;
   color: #009eff;
-  padding-left: 8px;
+  /* padding-left: 8px; */
 }
 .blue_border p {
   color: #323941;
@@ -588,15 +605,27 @@ span {
   line-height: 7.05px;
   letter-spacing: 0.02em;
   text-align: left;
-  height: 51px;
+  height: 90px;
+  width: 190px;
   padding-left: 20px;
+  /* color: #323941;   */
+}
+.cost_info p {
+  font-size: 16px;
+  line-height: 7.05px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  height: 80px;
+  /* padding-left: 20px; */
   color: #323941;
 }
 .protectionImg {
-  padding-left: 20px;
+  /* padding-left: 10px; */
   padding-top: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-bottom: 20px;
+  width: 100px;
+  height: 180px;
 }
 
 .class p {
@@ -611,10 +640,10 @@ span {
   padding-top: 20px;
 }
 .extended_adaptive {
+  width: 290px;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  width: 340px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.92px;
@@ -704,7 +733,7 @@ span {
 }
 
 .segway_adaptationImg {
-  padding-left: 30px;
+  /* padding-left: 20px; */
 }
 
 .delivery_container {
@@ -783,7 +812,9 @@ span {
   height: 37px; */
 }
 .delivery_info {
+  padding-left: 20px;
 }
+
 /* .delivery_container :hover {
   background-color: #009eff;
   width: 210px;
@@ -833,6 +864,9 @@ span {
   left: 948px;
   gap: 0px;
   opacity: 0px;
+}
+.charger_info {
+  padding-left: 20px;
 }
 .charger_info {
   display: flex;
@@ -1097,7 +1131,7 @@ span {
   display: none;
 }
 .losANGELES_info {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 31px;
   text-align: center;
@@ -1123,7 +1157,7 @@ span {
 .adaptation_sec {
   display: none;
   padding-top: 80px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 .packInfo_text {
   display: flex;
@@ -1157,6 +1191,7 @@ span {
 .packInfo_img2 {
   padding-top: 45px;
   display: flex;
+  width: 300px;
   /* flex-direction: row;
   align-items: center; */
   /* justify-content: center; */
@@ -1176,12 +1211,12 @@ span {
   padding-top: 75px;
 }
 .ninebo_adaptationImg {
-  padding-top: 70px;
+  padding-top: 65px;
   padding-left: 8px;
 }
 .ninebo_adaptation {
   height: 46px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 23px;
   text-align: left;
@@ -1191,7 +1226,7 @@ span {
   color: #323941;
 }
 .ninebo_adaptationP {
-  width: 170px;
+  width: 120px;
   height: 35px;
   font-size: 12px;
   font-weight: 400;
@@ -1202,9 +1237,11 @@ span {
   padding-top: 40px;
 }
 .price_ad {
+  margin-top: 30px;
   display: flex;
   padding-top: 110px;
   padding-left: 8px;
+  gap: 5px;
 }
 .price_ad p {
   width: 39px;
@@ -1216,7 +1253,7 @@ span {
   color: #999999;
 }
 .price_ad h5 {
-  padding-left: 60px;
+  /* padding-left: 60px; */
   width: 56px;
   font-size: 16px;
   font-weight: 400;
@@ -1225,19 +1262,19 @@ span {
   color: #323941;
 }
 .last_button {
-  width: 175px;
+  width: 130px;
   height: 46px;
   border-radius: 5px;
   margin-left: 1px;
-  margin-top: 20px;
+  margin-top: 22px;
   border-color: #009eff;
   color: #ffffff;
   background-color: #009eff;
 }
 .last_button2 {
   margin-left: 10px;
-  width: 170px;
-  height: 46px;
+  width: 125px;
+  height: 47px;
   border-radius: 4px;
   margin-top: 20px;
   border-color: #009eff;
@@ -1246,13 +1283,16 @@ span {
 }
 .last_flex {
   display: flex;
-  padding-left: 10px;
+  /* padding-left: 10px; */
+  gap: 5px;
 }
 .ninebo_adaptationImg2 {
   padding-top: 60px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  width: 125px;
 }
 .second_card {
+  width: 120px;
 }
 .preview_adaptation {
   display: none;
@@ -1273,9 +1313,15 @@ span {
 .grid_ad {
   display: none;
 }
+.grid_adaptation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .grid_adaptationImg {
-  width: 65px;
-  margin-left: 20px;
+  display: flex;
+  width: 55px;
+  /* margin-left: 10px; */
 }
 .grid_adaptationSpan {
   font-size: 18px;
@@ -1389,10 +1435,13 @@ span {
 }
 .rope_img {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+}
+.rope_img img {
+  width: 75px;
 }
 .in_stock {
   display: flex;
@@ -1405,9 +1454,17 @@ span {
   flex-direction: column;
 }
 
-
 /* Адаптация на 400px */
+@media (max-width: 800px) {
+  .Options {
+    display: none;
+  }
+}
+
 @media (max-width: 1280px) {
+  .payment_seg1 {
+    display: none;
+  }
   .segway_container {
     display: block;
   }
@@ -1477,7 +1534,7 @@ span {
     padding-bottom: 20px;
   }
   .protective_info {
-    font-size: 19px;
+    font-size: 20px;
     /* font-weight: 700; */
     line-height: 24.5px;
     padding-top: 22px;
@@ -1488,13 +1545,15 @@ span {
     display: none;
   }
   .payment_seg {
+    /* padding-left: calc(21.2154696132597vw - 63.5580110497238px); */
+    /* padding-left: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .scooter_payment {
-    width: 343px;
+    width: 290px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1550,7 +1609,7 @@ span {
     border: 8px solid #009eff;
   }
   .scooter_adaptation {
-    padding-left: 25px;
+    padding-left: 17px;
     gap: 5px;
   }
   .Extend_info {
