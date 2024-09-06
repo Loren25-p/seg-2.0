@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 2px solid red; */
 }
 body {
   font-family: Arial, sans-serif;
@@ -39,24 +38,19 @@ header {
 .Options_img {
   display: none;
 }
-
 .Burger_Menu {
   display: none;
   cursor: pointer;
 }
-
 .Owner_img {
   display: none;
 }
-
 .number {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
 }
-
 /* Header 2 start */
-
 .Admin_Navigate {
   display: flex;
   align-items: center;
@@ -64,11 +58,9 @@ header {
   gap: 520px;
   padding: 18px;
 }
-
 .Segway_Logo {
   margin-left: 100px;
 }
-
 .Admin_Infos {
   display: flex;
   width: 290px;
@@ -76,14 +68,12 @@ header {
   align-items: center;
   gap: 13px;
 }
-
 span {
   display: block;
   font-family: Proxima Nova;
   font-size: 13px;
   font-weight: 600;
 }
-
 .Owner_Contact {
   display: block;
   font-family: Proxima Nova;
@@ -92,7 +82,6 @@ span {
   color: #009eff;
   text-decoration: none;
 }
-
 /* Header 2 end */
 /* Section 1 start */
 #Assartements {
@@ -115,11 +104,9 @@ span {
 }
 .Example_img_2 {
 }
-
 .Example_img_Blue {
   display: block;
 }
-
 .Example_Name_Blue {
   color: #ffffff;
   font-family: Proxima Nova;
@@ -128,21 +115,14 @@ span {
   line-height: 21.92px;
   text-align: center;
 }
-.Example_Blue {
-}
-
 .Example {
   padding: 0 20px;
 }
 
-.Example_img_1 {
-  /* padding-left: 15px; */
-}
 .Example_img_2 {
   padding-left: 20px;
   padding-top: 50px;
 }
-
 .Example_Name {
   color: grey;
   font-family: Proxima Nova;
@@ -163,9 +143,7 @@ span {
   cursor: pointer;
   gap: 15px;
 }
-
 /* Section 2 end  */
-
 /* header 3 start */
 .promotion {
   color: #ffffff;
@@ -184,26 +162,6 @@ span {
   justify-content: center;
   gap: 85px;
 }
-
-/* section 3 start */
-/* .Kickscooter {
-  padding-left: calc(7.40331491712707vw + 117.237569060773px);
-  padding-top: calc(2.87292817679558vw + 5.22651933701657px);
-} */
-/* 
-.in_stock {
-
-  border: 2px solid #6acd68;
-  padding: 0 15px;
-  display: inline-block;
-  cursor: pointer;
-  padding-left: calc(7.40331491712707vw + 117.237569060773px);
-  padding-top: calc(2.87292817679558vw + 5.22651933701657px);
-} */
-/* .in_stock span {
-  color: #6acd68;
-  font-size: 13px;
-} */
 .segway_hover {
   width: 100%;
   flex-direction: row;
@@ -212,7 +170,6 @@ span {
 .Example_hover {
   display: flex;
   height: 80px;
-
   align-items: center;
   text-align: center;
   width: 375px;
@@ -233,7 +190,6 @@ span {
   transform: scale(1);
   background-color: #006699;
 }
-
 .scooter_info {
   font-size: 80px;
   font-weight: 700;
@@ -257,23 +213,17 @@ span {
   padding-right: 176px;
   display: flex;
 }
-
 .extend_info {
   display: flex;
 }
 .slider_segImg {
   display: flex;
 }
-
 /* ddddddddddddd */
-
 .segway_button {
   width: 89px;
   height: 27px;
   margin-left: 5px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   left: 212px;
   gap: 15px;
   color: #6acd68;
@@ -287,12 +237,9 @@ span {
   display: flex;
   display: none;
 }
-.inSrock_info {
-}
 .segway_container {
   display: flex;
 }
-
 .seg_ul {
   font-size: 80px;
   font-weight: 700;
@@ -302,12 +249,10 @@ span {
   text-transform: uppercase;
   color: #323941;
 }
-
 .in_stock {
   padding-top: 16px;
   display: flex;
 }
-
 .Extend_info {
   position: relative;
   top: 400px;
@@ -321,7 +266,6 @@ span {
   justify-content: center;
   align-items: center;
 }
-
 .seg_link a {
   text-decoration: none;
   color: #009eff;
@@ -331,7 +275,6 @@ span {
   line-height: 21.92px;
   text-align: left;
 }
-
 .armor {
   width: 120px;
   height: 87px;
@@ -351,7 +294,6 @@ span {
   text-align: left;
   text-decoration: line-through;
 }
-
 .Extend_info {
   border: 1px solid #999999;
   padding: 20px;
@@ -379,12 +321,10 @@ span {
   line-height: 21.92px;
   padding-left: 8px;
 }
-
 .extended_info {
   display: flex;
   gap: 10px;
 }
-
 .button_info {
   width: 161.36px;
   height: 36px;
@@ -396,18 +336,15 @@ span {
   border: 1px solid #999999;
   cursor: pointer;
 }
-
 .button_buy {
   margin-top: 13px;
   gap: 20px;
   display: flex;
 }
-
 .button_buy button {
   width: 239.59px;
   height: 48px;
 }
-
 .button_buyBlue {
   background-color: #009eff;
   border: 2px;
@@ -432,18 +369,15 @@ span {
   text-transform: uppercase;
   color: #ffffff;
 }
-
 /* ddddddddddddddd */
 .seg_adaptation {
   width: 300px;
   display: none;
-  /* list-style-type: none; */
   color: #323941;
 }
 .segway_adaptation {
   list-style-type: none;
 }
-
 .segWay_payment p {
   width: 147px;
   height: 22px;
@@ -457,12 +391,10 @@ span {
 .packing_text {
   color: #323941;
 }
-
 .payment_seg {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  justify-content: center;
   display: none;
 }
 .payment_seg1 {
@@ -472,7 +404,6 @@ span {
   padding-left: 65px;
 }
 .segway_payment {
-  /* padding-left: 100px; */
   display: flex;
   flex-direction: row;
   font-family: Proxima Nova;
@@ -482,7 +413,6 @@ span {
   text-align: left;
   color: #999999;
 }
-
 .span_blue {
   color: #009eff;
   text-decoration: none;
@@ -512,13 +442,6 @@ span {
   width: 17px;
   height: 13px;
 }
-. {
-  width: 483px;
-  display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  justify-items: center;
-  gap: 2px;
-}
 .segway_buttonAd {
   gap: 15px;
   color: #6acd68;
@@ -530,11 +453,9 @@ span {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: center; */
   margin-top: 20px;
   display: none;
 }
-
 .text_info {
   font-size: 30px;
 }
@@ -549,38 +470,29 @@ span {
 }
 .scooter_adaptation {
   display: flex;
-  /* padding-left: 45px; */
 }
 .scooter_adaptation h3 {
   font-size: 30px;
 }
 .protective_info {
-  /* line-height: 24.5px; */
   text-align: left;
   text-transform: uppercase;
 }
-
 .protective_info2 {
   display: flex;
 }
 .protection_container {
-  font-size:19px;
-  /* font-weight: 700; */
+  font-size: 19px;
   line-height: 24.5px;
   color: #009eff;
-  /* padding-left: 8px; */
 }
 .blue_border p {
   color: #323941;
-
   font-size: 14px;
   font-weight: 300;
   line-height: 17.05px;
   letter-spacing: 0.02em;
-
-  /* text-align: left; */
 }
-
 .blue_border h3 p {
   font-size: 20px;
   font-weight: 700;
@@ -589,17 +501,10 @@ span {
   display: flex;
   flex-direction: column;
 }
-
-/* .protectionImg {
-  display: flex;
-} */
-
 .kickscooter_info {
   padding-left: calc(21.3259668508287vw - 85.9723756906077px);
 }
-/* .protective_info {
-  text-align: left;
-} */
+
 .cost_info {
   font-size: 14px;
   line-height: 7.05px;
@@ -608,7 +513,6 @@ span {
   height: 90px;
   width: 190px;
   padding-left: 20px;
-  /* color: #323941;   */
 }
 .cost_info p {
   font-size: 16px;
@@ -616,18 +520,15 @@ span {
   letter-spacing: 0.02em;
   text-align: left;
   height: 80px;
-  /* padding-left: 20px; */
   color: #323941;
 }
 .protectionImg {
-  /* padding-left: 10px; */
   padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 20px;
   width: 100px;
   height: 180px;
 }
-
 .class p {
   font-size: 17px;
   line-height: 21.92px;
@@ -648,14 +549,6 @@ span {
   font-weight: 400;
   line-height: 21.92px;
 }
-/* .extended_adaptive {
-  border-color: #000000;
-  padding-top: 21px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20.92px;
-  text-align: center;
-} */
 .extend_price2 {
   padding-bottom: 20px;
 }
@@ -731,11 +624,6 @@ span {
   text-align: center;
   border: none;
 }
-
-.segway_adaptationImg {
-  /* padding-left: 20px; */
-}
-
 .delivery_container {
   display: flex;
   padding-left: 260px;
@@ -807,32 +695,15 @@ span {
   padding-top: 15px;
   padding-left: 10px;
 }
-.delivery_info img {
-  /* width: 38px;
-  height: 37px; */
-}
 .delivery_info {
   padding-left: 20px;
 }
-
-/* .delivery_container :hover {
-  background-color: #009eff;
-  width: 210px;
-  height: 55px; 
-} */
-
 .miles_info20 {
   display: flex;
 }
-
 .miles_info {
   display: flex;
   flex-direction: column;
-  /* background-color: #F7F7F7; 
-  width: 957px;
-  height: 192px;
-  top: 1468px;
-  left: 208px;  */
   padding-left: 260px;
   padding-top: 36px;
 }
@@ -845,8 +716,6 @@ span {
   color: #999999;
   width: 465px;
   height: 66px;
-
-  /* font-family: Proxima Nova; */
   font-size: 17px;
   font-weight: 400;
   line-height: 21.92px;
@@ -977,6 +846,9 @@ span {
   line-height: 15.51px;
   text-align: center;
   color: #999999;
+}
+.backpack_info {
+  text-transform: lowercase;
 }
 .backpack_price {
   color: #323941;
@@ -1192,9 +1064,6 @@ span {
   padding-top: 45px;
   display: flex;
   width: 300px;
-  /* flex-direction: row;
-  align-items: center; */
-  /* justify-content: center; */
 }
 
 .Accessories_adaptation {
@@ -1253,7 +1122,6 @@ span {
   color: #999999;
 }
 .price_ad h5 {
-  /* padding-left: 60px; */
   width: 56px;
   font-size: 16px;
   font-weight: 400;
@@ -1283,12 +1151,10 @@ span {
 }
 .last_flex {
   display: flex;
-  /* padding-left: 10px; */
   gap: 5px;
 }
 .ninebo_adaptationImg2 {
   padding-top: 60px;
-  /* padding-left: 20px; */
   width: 125px;
 }
 .second_card {
@@ -1321,7 +1187,6 @@ span {
 .grid_adaptationImg {
   display: flex;
   width: 55px;
-  /* margin-left: 10px; */
 }
 .grid_adaptationSpan {
   font-size: 18px;
@@ -1376,8 +1241,6 @@ span {
   height: 500px;
 }
 
-.Smart_info2 {
-}
 .Smart_info3 {
   font-size: 20px;
   font-weight: 700;
@@ -1437,7 +1300,6 @@ span {
   display: flex;
   width: 100%;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: center;
 }
 .rope_img img {
@@ -1454,7 +1316,6 @@ span {
   flex-direction: column;
 }
 
-/* Адаптация на 400px */
 @media (max-width: 800px) {
   .Options {
     display: none;
@@ -1530,12 +1391,10 @@ span {
     display: block;
     color: #323941;
     padding-top: 20px;
-    /* padding-left: 130px; */
     padding-bottom: 20px;
   }
   .protective_info {
     font-size: 20px;
-    /* font-weight: 700; */
     line-height: 24.5px;
     padding-top: 22px;
     padding-left: 20px;
@@ -1545,8 +1404,6 @@ span {
     display: none;
   }
   .payment_seg {
-    /* padding-left: calc(21.2154696132597vw - 63.5580110497238px); */
-    /* padding-left: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1557,7 +1414,6 @@ span {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* padding-left: 60px; */
   }
   .last_info {
     display: none;
@@ -1609,8 +1465,8 @@ span {
     border: 8px solid #009eff;
   }
   .scooter_adaptation {
-    padding-left: 17px;
-    gap: 5px;
+    padding-left: 15px;
+    gap: 15px;
   }
   .Extend_info {
     display: none;
@@ -1628,7 +1484,7 @@ span {
   .Segway_Info {
     display: block;
     display: flex;
-    gap: 40px;
+    gap: 50px;
     padding: 16px;
   }
   header {
